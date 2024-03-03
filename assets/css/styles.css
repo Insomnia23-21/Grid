@@ -1,0 +1,91 @@
+body {
+  background-color: #8b8b8b;
+  margin: 0;
+  color: #ffffff;
+}
+
+.banner_principal {
+  background-color: rgb(20, 63, 252);
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+}
+
+.banner_principal p {
+  margin-top: 9px;
+}
+
+.contenedor_principal {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.contenedor_izquierda {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 180px;
+  min-height: 100vh;
+}
+
+.contenedor_izquierda .titulo_stock {
+  margin-left: 25px;
+  color: #000;
+}
+
+.contenedor_izquierda .lista_productos {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-top: 0;
+}
+
+.lista_productos li {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.lista_productos .producto {
+  display: flex;
+  color: #000;
+}
+
+.lista_productos .stock {
+  display: flex;
+  color: #dbdbdb;
+}
+
+.contenedor_derecha {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contenedor_derecha .producto_referencial {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 15px;
+  color: #000;
+  text-align: center;
+}
+
+.producto_referencial .imagen img {
+  height: 280px;
+  width: 220px;
+}
+
+.producto_referencial .layout_compra {
+  background-color: #182fff;
+  color: #ffffff;
+  min-height: 50px;
+}
+
+.layout {
+  color: #000;
+  background-color: #ffffff;
+  min-width: 100vh;
+  height: 40px;
+  text-align: center;
+}
